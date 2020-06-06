@@ -1,0 +1,28 @@
+body{
+  background-image:url('bg1.jpg');
+  background-size: 100%;
+}
+.top{
+  width: 100%auto;
+  height: 50px;
+  border: 1px solid black;
+
+}
+img{
+  padding: 5px;
+  width: 300px;
+  padding-top: 50px;
+}
+#t{
+  pagging-bottom: 20px;
+}
+.content{
+
+background-color: lightgrey;
+width: 1000px;
+border: 15px solid green;
+padding:50px;
+margin-left: 350px;
+margin-right: 100px;
+margin-top: -370px;
+}

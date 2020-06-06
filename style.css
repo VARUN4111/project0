@@ -1,0 +1,59 @@
+body{
+    background-image:url('bg.jpg');
+    background-size: 100%;
+}
+button{
+  position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #2feb6d;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button:hover{
+  background-color: #cccc33;
+}
+
+.top{
+  width: 100%auto;
+ height: 150px;
+ border: 1px solid blue;
+ background-color: black;
+ opacity: 0.6;
+}
+#first{
+  color: white;
+  padding-left: 10px;
+}
+#cw{
+  text-align: center;
+  padding-top: 250px;
+}
+#links{
+  text-align: right;
+   padding-right: 20px;
+   text-decoration: none;
+}
+a:link{
+   text-decoration: none;
+   color: white;
+
+}
+a:visited{
+  text-decoration: none;
+  color: green;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  color: white;
+}
